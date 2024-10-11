@@ -34,11 +34,10 @@ app.use((err, req, res, next) => {
 app.get('/', (req, res) => {
     res.send(`
            <center>
-            <h1>Welcome to the Education-Management-system</h1>
+            <h1>Welcome to the Freelancer_Project_Management</h1>
             <br>
             <p>
-                Get EXPENSE_CONTROLLER_TOOL: 
-            <a href="https://github.com/RoshniPadaliya/freelancer_project_management.git" target="_blank">Repository:Freelancer Project Management </a>
+            <a href="https://github.com/RoshniPadaliya/Freelancer_Project_Management.git" target="_blank">Repository:Freelancer Project Management </a>
             </p>
         </center>
     `);
